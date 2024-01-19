@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	color: white;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #232f3e;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.logo span {
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.buttons {
+	display: flex;
+	gap: 20px;
+}
+
+.search-bar {
+    width: 70%;  
+    margin: 20px auto;
+}
+.search-bar input[type="search"] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+.search-bar button {
+    /*background-image: url('../images/magnify.png');  */
+    background-size: cover;  
+}
+
+.bodySection
+{
+	color: black;
+}

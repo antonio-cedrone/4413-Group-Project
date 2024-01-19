@@ -1,0 +1,14 @@
+@charset "UTF-8";/* confirmation.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+}
